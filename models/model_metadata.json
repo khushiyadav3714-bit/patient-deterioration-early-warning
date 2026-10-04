@@ -1,0 +1,19 @@
+{
+    "best_algorithm": "Random Forest",
+    "features": [
+        "age",
+        "heart_rate",
+        "respiratory_rate",
+        "spo2",
+        "systolic_bp",
+        "diastolic_bp",
+        "temperature"
+    ],
+    "target": "deterioration_risk",
+    "accuracy": 0.7044,
+    "precision": 0.7181,
+    "recall": 0.673,
+    "f1_score": 0.6948,
+    "roc_auc": 0.7868,
+    "clinical_rationale": "Selected for superior ROC-AUC and high recall, protecting against lethal false-negative classifications in clinical deteriorating states."
+}
